@@ -13,6 +13,9 @@ class TweetsController < ActionController::Base
   
  def gettweet
   @tweet = Tweet.last
+  respond_to do |format|
+    format.js { }
+  end
  end
 
  def getpopcandidate

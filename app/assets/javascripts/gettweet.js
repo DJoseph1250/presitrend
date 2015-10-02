@@ -1,7 +1,6 @@
 $(function (){
-alert("helejdfshfdshs")
+  alert("helejdfshfdshs")
 });
-
 
 // $(document).ready(function(){
 // alet("FUCK I DONT ANYTHIGN")
